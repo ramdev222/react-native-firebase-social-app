@@ -25,7 +25,7 @@ const LoginScreen = ({navigation}) => {
         style={styles.logo}
       />
       <Text style={styles.text}>RN Social App</Text>
-{/* * 
+
       <FormInput
         labelValue={email}
         onChangeText={(userEmail) => setEmail(userEmail)}
@@ -52,7 +52,7 @@ const LoginScreen = ({navigation}) => {
       <TouchableOpacity style={styles.forgotButton} onPress={() => {}}>
         <Text style={styles.navButtonText}>Forgot Password?</Text>
       </TouchableOpacity>
- */}
+ 
       {Platform.OS === 'android' ? (
         <View>
           <SocialButton
