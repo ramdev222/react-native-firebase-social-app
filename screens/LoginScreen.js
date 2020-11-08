@@ -24,7 +24,7 @@ const LoginScreen = ({navigation}) => {
         source={require('../assets/rn-social-logo.png')}
         style={styles.logo}
       />
-      <Text style={styles.text}>RN Social App</Text>
+      <Text style={styles.text}>Tagay</Text>
 
       <FormInput
         labelValue={email}
